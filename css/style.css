@@ -1,0 +1,102 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+.titulo{
+    padding: 28px;
+    box-shadow: 0 10px 7px 0px rgb(0 0 0 / 25%)
+}
+
+.superheroes{
+    text-align: center;
+}
+
+.portada{
+    color: red;
+    font-size: 30px;
+    height: 190px;
+}
+
+.batman .portada{
+    background-image: url(../img/fondobatman.png);
+    background-repeat: no-repeat;
+}
+
+.harley .portada{
+    background-image: url(../img/fondoharley.png);
+    background-repeat: no-repeat;
+}
+
+.card{
+    margin: 100PX 20PX;
+    display: inline-block;
+    width: 300px;
+    background-color: #F3F3F3;
+    text-align: center;
+    height: 560px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%)
+}
+
+.card i{
+    display: block;
+    position: relative;
+    top: 10px;
+    right: 120px;
+}
+
+.avatar{
+    border-radius: 50%;
+    position: relative;
+    top: 90px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%)
+}
+
+.perfil{
+    height: 336px;
+}
+
+.perfil h3{
+    margin: 74px 0 10px 0;
+    font-size: 30px;
+}
+
+.perfil p{
+    margin: 0 16px 50px 16px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.titulo, .card a, footer{
+    background-color: #00669F;
+}
+
+.perfil a{
+    padding: 19px 37px;
+}
+
+.perfil a, footer{
+    color: white;
+} 
+
+footer{
+    padding: 16px;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
