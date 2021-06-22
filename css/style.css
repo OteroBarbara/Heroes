@@ -42,8 +42,12 @@ body{
     background-repeat: no-repeat;
 }
 
+section{
+    margin: 100px 0;
+}
+
 .card{
-    margin: 100PX 20PX;
+    margin: 20px;
     display: inline-block;
     width: 300px;
     background-color: #F3F3F3;
